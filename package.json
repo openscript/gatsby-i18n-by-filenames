@@ -1,0 +1,28 @@
+{
+  "name": "gatsby-i18n-by-filenames",
+  "version": "0.1.0",
+  "description": "Internationalize content based by a filename suffix.",
+  "main": "dist/index.js",
+  "repository": "https://github.com/openscript/gatsby-i18n-by-filenames",
+  "author": "Robin",
+  "license": "MIT",
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "scripts": {
+    "build": "tsc -b",
+    "watch": "babel -w src --out-dir . --ignore **/__tests__"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.14.0",
+    "@typescript-eslint/parser": "^2.14.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.9.0",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "gatsby": "^2.18.17",
+    "jest": "^24.9.0",
+    "prettier": "^1.19.1",
+    "typescript": "^3.7.4"
+  }
+}
