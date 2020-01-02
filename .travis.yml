@@ -21,3 +21,11 @@ script:
 
 after_script:
   - 'if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then ./cc-test-reporter upload-coverage; fi'
+
+deploy:
+  provider: npm
+  email: $NPM_EMAIL
+  api_key: $NPM_TOKEN
+  edge: true  # opt in to dpl v2
+  on:
+    tags: true
