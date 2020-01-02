@@ -1,4 +1,4 @@
-# gatsby-i18n-by-filenames
+# gatsby-i18n-filenames
 Internationalize content based by a filename suffix.
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/9b95c170690b5b9b8b21/maintainability)](https://codeclimate.com/github/openscript/gatsby-i18n-by-filenames/maintainability)
