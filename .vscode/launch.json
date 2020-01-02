@@ -12,7 +12,8 @@
       "disableOptimisticBPs": true,
       "windows": {
         "program": "${workspaceFolder}/node_modules/jest/bin/jest",
-      }
+      },
+      "runtimeExecutable": "~/.asdf/shims/node"
     },
     {
       "type": "node",
@@ -29,7 +30,8 @@
       "disableOptimisticBPs": true,
       "windows": {
         "program": "${workspaceFolder}/node_modules/jest/bin/jest",
-      }
+      },
+      "runtimeExecutable": "~/.asdf/shims/node"
     }
   ]
 }
