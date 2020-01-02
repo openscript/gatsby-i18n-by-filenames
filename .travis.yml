@@ -16,7 +16,7 @@ install:
 
 script:
   - yarn test
-  - 'if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then ./cc-test-reporter format-coverage -t lcov coverage/lcov.info -o coverage/coverage-final.json; fi'
+  - 'if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then ./cc-test-reporter format-coverage -t lcov coverage/lcov.info -o coverage/codeclimate.json; fi'
   - yarn build
 
 after_script:
