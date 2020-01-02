@@ -8,7 +8,7 @@ Internationalize content based by a filename suffix.
 This plugin can be installed with:
 
 ```
-yarn add gatsby-i18n-by-filenames
+yarn add gatsby-i18n-filenames
 ```
 
 
