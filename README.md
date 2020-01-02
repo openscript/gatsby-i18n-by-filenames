@@ -1,6 +1,9 @@
 # gatsby-i18n-by-filenames
 Internationalize content based by a filename suffix.
 
+[![Maintainability](https://api.codeclimate.com/v1/badges/9b95c170690b5b9b8b21/maintainability)](https://codeclimate.com/github/openscript/gatsby-i18n-by-filenames/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/9b95c170690b5b9b8b21/test_coverage)](https://codeclimate.com/github/openscript/gatsby-i18n-by-filenames/test_coverage)
+
 This plugin can be installed with:
 
 ```
