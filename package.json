@@ -1,5 +1,5 @@
 {
-  "name": "gatsby-i18n-by-filenames",
+  "name": "gatsby-i18n-filenames",
   "version": "0.1.0",
   "description": "Internationalize content based by a filename suffix.",
   "main": "dist/index.js",
