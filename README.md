@@ -24,3 +24,5 @@ Use ISO 3166-2 alpha-2 codes for declaring the languages region of a file. For e
  - `page.de-DE.md, page.de-CH.md, page.en.md, ...`
  - `another-page.en-US.md, another-page.en-GB.md, ...`
 
+## Resources
+ - [Article: Creating a Gatsby Plugin With Typescript](https://gregperlman.dev/creating-a-gatsby-plugin-with-typescript/)
